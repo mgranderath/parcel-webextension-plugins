@@ -35,7 +35,8 @@
     "prepare": "husky install",
     "verdaccio": "verdaccio --config verdaccio.yml",
     "lint": "eslint . && prettier \"./packages/*/{src,bin,test}/**/*.{js,json,md}\" --list-different",
-    "release": "changeset publish"
+    "release": "changeset publish",
+    "bootstrap": "lerna bootstrap --use-workspace"
   },
   "lint-staged": {
     "*.{js,json,md}": "prettier --write"
