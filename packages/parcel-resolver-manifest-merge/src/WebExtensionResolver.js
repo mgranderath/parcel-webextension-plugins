@@ -15,10 +15,15 @@ export default new Resolver({
     const directoryOfManifest = path.dirname(filePath);
     const mainManifestCode = JSON.parse(await fs.readFile(filePath, "utf-8"));
 
-    const additionalManifestPath = path.join(directoryOfManifest, `manifest.${NODE_ENV}.json`);
+    const additionalManifestPath = path.join(
+      directoryOfManifest,
+      `manifest.${NODE_ENV}.json`
+    );
     let additionalManifestCode = {};
     if (fs.exists(additionalManifestPath)) {
-      additionalManifestCode = JSON.parse(await fs.readFile(additionalManifestPath, "utf-8"));
+      additionalManifestCode = JSON.parse(
+        await fs.readFile(additionalManifestPath, "utf-8")
+      );
     }
 
     return {
@@ -28,5 +33,4 @@ export default new Resolver({
       invalidateOnFileChange: [],
     };
   },
-})
-
+});

@@ -58,7 +58,7 @@ exports.clean = function clean(cb) {
 };
 
 exports.default = exports.build = gulp.series(
-  gulp.parallel(buildBabel, copyOthers),
+  gulp.parallel(buildBabel, copyOthers)
   // Babel reads from package.json so update these after babel has run
   // () => updatePackageJson(paths.packageJson),
 );
@@ -67,19 +67,19 @@ function buildBabel() {
   return gulp
     .src(paths.packageSrc)
     .pipe(babel(babelConfig))
-    .pipe(renameStream(relative => relative.replace("src", "lib")))
+    .pipe(renameStream((relative) => relative.replace("src", "lib")))
     .pipe(gulp.dest(paths.packages));
 }
 
 function copyOthers() {
   return gulp
     .src(paths.packageOther)
-    .pipe(renameStream(relative => relative.replace("src", "lib")))
+    .pipe(renameStream((relative) => relative.replace("src", "lib")))
     .pipe(gulp.dest(paths.packages));
 }
 
 function renameStream(fn) {
-  return new TapStream(vinyl => {
+  return new TapStream((vinyl) => {
     let relative = path.relative(vinyl.base, vinyl.path);
     vinyl.path = path.join(vinyl.base, fn(relative));
   });

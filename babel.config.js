@@ -1,7 +1,7 @@
 module.exports = {
-  "presets": [
+  presets: [
     [
-      require('@babel/preset-env'),
+      require("@babel/preset-env"),
       {
         modules: false,
         targets: {
@@ -10,12 +10,12 @@ module.exports = {
       },
     ],
   ],
-  "plugins": [
+  plugins: [
     [
-      require('@babel/plugin-transform-modules-commonjs'),
+      require("@babel/plugin-transform-modules-commonjs"),
       {
-        lazy: () => process.env.NODE_ENV !== 'test',
+        lazy: () => process.env.NODE_ENV !== "test",
       },
     ],
-  ]
-}
+  ],
+};
