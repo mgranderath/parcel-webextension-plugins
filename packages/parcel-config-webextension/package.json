@@ -1,6 +1,6 @@
 {
   "name": "@mgranderath/parcel-config-webextension",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.json",
   "author": "mgranderath",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "parcel": "^2.0.0-beta.1"
   },
   "dependencies": {
-    "@mgranderath/parcel-resolver-manifest-merge": "^0.0.0",
+    "@mgranderath/parcel-resolver-manifest-merge": "^0.1.0",
     "@parcel/config-webextension": "^2.0.0-nightly.2242"
   }
 }
