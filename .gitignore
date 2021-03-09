@@ -1,0 +1,7 @@
+lib
+dist
+*.log
+node_modules
+.husky
+.verdaccio_storage
+.idea

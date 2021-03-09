@@ -1,0 +1,10 @@
+lib
+dist
+/test/dist
+/test/input
+*.min.js
+
+coverage
+node_modules
+tmp
+fixtures
