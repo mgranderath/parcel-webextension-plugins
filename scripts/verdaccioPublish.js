@@ -7,7 +7,7 @@ const run = (cmd) => execSync(cmd, { encoding: "utf8", cwd: parent });
 const bin = (cmd) => path.join(parent, "node_modules/.bin", cmd);
 
 const sha = run("git rev-parse --short HEAD").trim();
-const version = "0.0.1"
+const version = "0.0.1";
 
 try {
   run(
@@ -16,7 +16,6 @@ try {
     )} version -y --no-push --no-git-tag-version --exact ${version}-${sha}`
   );
 
-  
   run(`git add .`);
   run(`git commit -m 'Temp' --no-verify`);
 
