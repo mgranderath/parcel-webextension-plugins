@@ -34,7 +34,8 @@
     "build": "cross-env NODE_ENV=production PARCEL_BUILD_ENV=production gulp",
     "prepare": "husky install",
     "verdaccio": "verdaccio --config verdaccio.yml",
-    "lint": "eslint . && prettier \"./packages/*/{src,bin,test}/**/*.{js,json,md}\" --list-different"
+    "lint": "eslint . && prettier \"./packages/*/{src,bin,test}/**/*.{js,json,md}\" --list-different",
+    "release": "changeset publish"
   },
   "lint-staged": {
     "*.{js,json,md}": "prettier --write"
