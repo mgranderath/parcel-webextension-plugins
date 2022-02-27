@@ -1,6 +1,6 @@
 {
   "name": "@mgranderath/parcel-resolver-manifest-merge",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "lib/WebExtensionResolver.js",
   "source": "src/WebExtensionResolver.js",
   "author": "mgranderath",
