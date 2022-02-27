@@ -1,5 +1,11 @@
 # @mgranderath/parcel-config-webextension
 
+## 0.2.2
+
+### Patch Changes
+
+- [`72ecc53`](https://github.com/mgranderath/parcel-webextension-plugins/commit/72ecc53101112573846ca9d6cc9accfd50bac2d8) Thanks [@mgranderath](https://github.com/mgranderath)! - Bump manifest merge
+
 ## 0.2.1
 
 ### Patch Changes
