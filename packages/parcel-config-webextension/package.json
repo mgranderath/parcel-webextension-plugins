@@ -5,10 +5,10 @@
   "author": "mgranderath",
   "license": "MIT",
   "engines": {
-    "parcel": "^2.0.0-beta.1"
+    "parcel": "^2.0.0"
   },
   "dependencies": {
     "@mgranderath/parcel-resolver-manifest-merge": "^0.1.0",
-    "@parcel/config-webextension": "^2.0.0-nightly.2242"
+    "@parcel/config-webextension": "^2.3.2"
   }
 }
