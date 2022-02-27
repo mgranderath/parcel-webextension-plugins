@@ -1,5 +1,14 @@
 # @mgranderath/parcel-config-webextension
 
+## 0.2.1
+
+### Patch Changes
+
+- [`4743537`](https://github.com/mgranderath/parcel-webextension-plugins/commit/4743537df4ff026ee84d86d796881fcdd34a71de) Thanks [@mgranderath](https://github.com/mgranderath)! - Adjust to new Parcel API
+
+- Updated dependencies [[`4743537`](https://github.com/mgranderath/parcel-webextension-plugins/commit/4743537df4ff026ee84d86d796881fcdd34a71de)]:
+  - @mgranderath/parcel-resolver-manifest-merge@0.2.1
+
 ## 0.2.0
 
 ### Minor Changes
