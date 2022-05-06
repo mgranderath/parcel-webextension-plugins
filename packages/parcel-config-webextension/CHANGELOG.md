@@ -1,5 +1,11 @@
 # @mgranderath/parcel-config-webextension
 
+## 0.2.3
+
+### Patch Changes
+
+- [#7](https://github.com/mgranderath/parcel-webextension-plugins/pull/7) [`d551814`](https://github.com/mgranderath/parcel-webextension-plugins/commit/d551814670cb2d81cdf5841a96089f8f19172b7b) Thanks [@mgranderath](https://github.com/mgranderath)! - Upgrade dependency
+
 ## 0.2.2
 
 ### Patch Changes
