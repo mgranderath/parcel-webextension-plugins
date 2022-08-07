@@ -1,5 +1,11 @@
 # @mgranderath/parcel-config-webextension
 
+## 0.3.0
+
+### Minor Changes
+
+- [#9](https://github.com/mgranderath/parcel-webextension-plugins/pull/9) [`70096df`](https://github.com/mgranderath/parcel-webextension-plugins/commit/70096df817b278a1945e1be61f2280e93880c33a) Thanks [@mgranderath](https://github.com/mgranderath)! - Bump dependency versions
+
 ## 0.2.3
 
 ### Patch Changes
