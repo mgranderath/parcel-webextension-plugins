@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "@mgranderath/parcel-resolver-manifest-merge": "^0.2.1",
-    "@parcel/config-webextension": "^2.3.2"
+    "@parcel/config-webextension": "^2.7.0"
   }
 }
